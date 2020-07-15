@@ -866,33 +866,33 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="row px-1 px-sm-0">
-                            <div class="col-3 col-lg-auto">
-                                <div class="row flex-column lightgallery gallery-vertical" id="lightgalleryCard">
+                            <div class="col-sm-3 col-lg-auto order-2 order-sm-1">
+                                <div class="row flex-sm-column justify-content-center lightgallery gallery-vertical gallery-xs-horizontal" id="lightgalleryCard">
                                     <!-- мин. фото (макс. количество показано 6 фото)-->
-                                    <a href="img/plitka1.jpg" class="col-auto gallery-big-chil p-1">
+                                    <a href="img/plitka1.jpg" class="col-sm-auto gallery-big-chil p-1">
                                         <img src="img/plitka1.jpg">
                                     </a>
-                                    <a href="img/plitka2.jpg" class="col-auto gallery-big-chil p-1">
+                                    <a href="img/plitka2.jpg" class="col-sm-auto gallery-big-chil p-1">
                                         <img src="img/plitka2.jpg">
                                     </a>
-                                    <a href="img/plitka3.jpg" class="col-auto gallery-big-chil p-1">
+                                    <a href="img/plitka3.jpg" class="col-sm-auto gallery-big-chil p-1">
                                         <img src="img/plitka3.jpg">
                                     </a>
-                                    <a href="img/plitka1.jpg" class="col-auto gallery-big-chil p-1">
+                                    <a href="img/plitka1.jpg" class="col-sm-auto gallery-big-chil p-1">
                                         <img src="img/plitka1.jpg">
                                     </a>
-                                    <a href="img/plitka2.jpg" class="col-auto gallery-big-chil p-1">
+                                    <a href="img/plitka2.jpg" class="col-sm-auto gallery-big-chil p-1">
                                         <img src="img/plitka2.jpg">
                                     </a>
-                                    <a href="img/plitka3.jpg" class="col-auto gallery-big-chil p-1">
+                                    <a href="img/plitka3.jpg" class="col-sm-auto gallery-big-chil p-1">
                                         <img src="img/plitka3.jpg">
                                     </a>
                                     <!-- скрытая картинка (макс.фото) для галлереи -->
-                                    <a href="img/plitka1.jpg" class="col-auto gallery-big-chil p-1">
-                                    </a>
+                                    <!-- <a href="img/plitka1.jpg">
+                                    </a> -->
                                 </div>
                             </div>
-                            <div class="col-9">
+                            <div class="col-sm-9 order-1 order-sm-2">
                                 <div class="row gallery-vertical">
                                     <!-- макс. фото -->
                                     <a href="img/plitka1.jpg" class="col-lg-12 gallery-big-head p-1 pb-2">
@@ -926,7 +926,7 @@
                         </div>
                         <!-- характеристики -->
                         <div class="row" id="characteristic">
-                            <div class="col-sm-7">
+                            <div class="col-md-7 order-md-1 order-1">
                                 <!-- фабрика -->
                                 <p class="f-13 mb-2">Фабрика:<span class="ml-1">Italon</span></p>
                                 <!-- страна -->
@@ -940,41 +940,62 @@
                                 <!-- ссылка скроллом до блока характеристики -->
                                 <a href="#character" data-scroll class="border-bottom-dashed f-13 my-3">Все характеристики</a>
                                 <!-- наличие -->
-                                <p class="f-13 my-3 text-green fw-7">Наличие:<span class="ml-1">Есть</span></p>
-                                <!-- цена -->
-                                <p class="my-4 my-lg-3 my-xl-4 h2 ttn">3 765 руб./м2</p>
+                                <p class="f-13 my-3 text-green fw-7">Наличие:<span class="ml-1">Есть</span></p>    
                             </div>
-                            <div class="col-sm-5 p-sm-0">
-                                <!-- преимущества -->
-                                <div class="d-flex flex-wrap">
-                                    <div class="d-flex align-items-center pr-4 pr-sm-5 mt-1 mb-3">
-                                        <i class="i-img-3"><img src="img/i-desing.png" alt=""></i>
-                                        <p class="f-13 ttu fw-7 ml-1">Бесплатный <br> дизайн-проект</p>
+                            <div class="col-md-5 p-sm-0 order-md-2 order-5">
+                                <div class="row justify-content-between d-md-none mt-5 mb-4 mx-0">
+                                    <div class="col-auto px-1 text-center">
+                                        <a href="#desc" data-scroll class="f-12 fw-7 text-dgray text-center border-bottom-yellow">Описание</a>
                                     </div>
-                                    <div class="d-flex align-items-center pr-4 pr-sm-5 mt-1 mb-3">
-                                        <i class="i-img-3"><img src="img/i-calculator.png" alt=""></i>
-                                        <p class="f-13 ttu fw-7 ml-1">Рассчет количества <br> плитки</p>
+                                    <div class="col-auto px-1 text-center">
+                                        <a href="#character" data-scroll class="f-12 fw-7 text-dgray text-center border-bottom-yellow">Характеристики</a>
                                     </div>
-                                    <div class="d-flex align-items-center pr-4 pr-sm-5 mt-1 mb-3">
-                                        <i class="i-img-3"><img src="img/i-car.png" alt=""></i>
-                                        <p class="f-13 ttu fw-7 ml-1">Бесплатная<br>доставка образцов</p>
-                                    </div>
-                                    <div class="d-flex align-items-center pr-4 pr-sm-5 mt-1 mb-3">
-                                        <i class="i-img-3"><img src="img/i-video.png" alt=""></i>
-                                        <p class="f-13 ttu fw-7 ml-1">Видеотрансляция <br> товара</p>
+                                    <div class="col-auto px-1 text-center">
+                                        <a href="#address" data-scroll class="f-12 fw-7 text-dgray text-center border-bottom-yellow">Где купить</a>
                                     </div>
                                 </div>
                                 <!-- преимущества -->
-                                <div class="d-flex flex-wrap">
-                                    <div class="d-flex pr-4 pr-sm-5 mt-1 mb-3">
-                                        <i><img src="img/i-chek.png" alt=""></i>
-                                        <p class="f-14 ml-1">Гарантия лучшей цены</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
                                 <div class="row mx-0">
-                                    <div class="col-sm-7 pr-sm-1">
+                                    <div class="col-md-12 col-sm-6 p-1 p-md-0 mt-1 mb-2">
+                                        <a href="" class="d-flex align-items-center text-center text-sm-left btn-sm px-2 px-md-0 h-100">
+                                            <i class="i-img-3"><img src="img/i-desing.png" alt=""></i>
+                                            <p class="f-13 ttu fw-7 ml-1">Бесплатный дизайн-проект</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-6 p-1 p-md-0 mt-1 mb-2">
+                                        <a href="" class="d-flex align-items-center text-center text-sm-left btn-sm px-2 px-md-0 h-100">
+                                            <i class="i-img-3"><img src="img/i-calculator.png" alt=""></i>
+                                            <p class="f-13 ttu fw-7 ml-1">Рассчет количества плитки</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-6 p-1 p-md-0 mt-1 mb-2">
+                                        <a href="" class="d-flex align-items-center text-center text-sm-left btn-sm px-2 px-md-0 h-100">
+                                            <i class="i-img-3"><img src="img/i-car.png" alt=""></i>
+                                            <p class="f-13 ttu fw-7 ml-1">Бесплатная доставка образцов</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-12 col-sm-6 p-1 p-md-0 mt-1 mb-2">
+                                        <a href="" class="d-flex align-items-center text-center text-sm-left btn-sm px-2 px-md-0 h-100">
+                                            <i class="i-img-3"><img src="img/i-video.png" alt=""></i>
+                                            <p class="f-13 ttu fw-7 ml-1">Видеотрансляция товара</p>
+                                        </a>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col-7 my-3 order-md-3 order-2">
+                                <!-- цена -->
+                                <p class="h2 ttn mb-0">3 765 руб./м2</p>
+                            </div>
+                            <div class="col-5 col-md-5 my-3 order-md-4 order-3 px-0 px-sm-3">
+                                <!-- преимущества -->
+                                <div class="d-flex">
+                                    <i><img src="img/i-chek.png" alt=""></i>
+                                    <p class="f-13 ml-1">Гарантия лучшей цены</p>
+                                </div>
+                            </div>
+                            <div class="col-12 order-md-5 order-4">
+                                <div class="row mx-0">
+                                    <div class="col-sm-7 pr-sm-1 mb-3 mb-sm-0">
                                         <!-- кол-во -->
                                         <div class="row">
                                             <div class="col-auto pr-sm-1 pl-0">
@@ -999,7 +1020,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-5 pt-3">
+                                    <div class="col-sm-5">
                                         <!-- кнопка -->
                                         <a href="" class="btn btn-black my-2">
                                             В корзину
@@ -1018,6 +1039,12 @@
                 </div>
         	</div>
         </header>
+        <section id="desc">
+            <div class="text-center f-13 py-5 line-my-gradient mt-lg-5 mt-3">
+                <p class="mb-3">Ванны из коллекции Finion компании Villeroy &amp; Boch удовлетворяют самые высокие требования. Отдельностоящая ванна из материала Quaryl® имеет филигранную форму и очень тонкие стенки. Эта модель имеет обширное внутреннее пространство, превращая даже небольшую ванную комнату в оазис велнеса.</p>
+                <p>Компактные внешние размеры и одновременно обширное внутреннее пространство <br>Цельнолитая структура — ванна выполнена без швов как единая отливка <br> В качестве опции предлагается отделка по контуру — хром, шампань и под золото — для создания индивидуального облика ванны <br> Благодаря эффектной опции ванна как будто парит в воздухе на цоколе, наполненном светом</p>
+            </div>
+        </section>
         <section class="py-5" id="character">
             <div class="container">
                 <div class="mx-xl-5 px-xl-5"><!-- отступ по краям -->
@@ -1297,6 +1324,178 @@
                             </p>
                         </div>
                     </a>
+                </div>
+            </div>
+        </section>
+        <section class="py-5" id="address">
+            <div class="container">
+                <h2 class="line-top-gradient text-center mb-5 pt-5">
+                    Салоны сквирел в брянске
+                </h2>
+                <div class="row py-2 border-bottom d-none d-lg-flex">
+                    <div class="col-1">
+                        
+                    </div>
+                    <div class="col-11">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <p class="f-13 fw-7">Адрес</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p class="f-13 fw-7">Телефон</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p class="f-13 fw-7">Режим работы</p>
+                            </div>
+                            <div class="col-lg-2">
+                                <p class="f-13 fw-7">Способы оплаты</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row py-3 border-bottom mb-3 mb-sm-0">
+                    <div class="col-4 col-md-2 col-lg-1 pr-0 p-sm-0 mb-3 mb-sm-0">
+                        <a href="img/location.png" target="_blank" class="hover-scale d-block"><img src="img/location.png" alt=""></a>
+                    </div>
+                    <div class="col-8 col-md-10 col-lg-11">
+                        <div class="row">
+                            <div class="col-md-3 mb-1 mb-sm-3 col-sm-6">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Адрес:</p>
+                                <p class="f-13 fw-7">Фирменный салон ITALON</p>
+                                <p class="f-13">Брянск, ул. Дуки, д. 73</p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 mb-sm-3 col-sm-6 d-none d-sm-block">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Телефон:</p>
+                                <a href="tel:89100343117" class="f-13 hover-scale d-block fw-6">8 (910) 034-31-17</a>
+                            </div>
+                            <div class="col-md-3 mb-1 col-lg-2 mb-sm-3 col-sm-6">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Режим работы:</p>
+                                <p class="f-13">
+                                    Пн-Сб: 10:00-19:00 <br>
+                                    Вс: 10:00-17:00
+                                </p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 mb-sm-3 col-sm-6 d-none d-sm-block">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Способы оплаты:</p>
+                                <p class="f-13">
+                                    Наличными <br>
+                                    Банковской картой <br>
+                                    Оплата по счёту
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-sm-none mt-2">
+                        <a href="tel:89100343117" class="btn btn-black ttn f-13">Позвонить!</a>
+                    </div>
+                </div>
+                <div class="row py-3 border-bottom mb-3 mb-sm-0">
+                    <div class="col-4 col-md-2 col-lg-1 pr-0 p-sm-0 mb-3 mb-sm-0">
+                        <a href="img/location.png" target="_blank" class="hover-scale d-block"><img src="img/location.png" alt=""></a>
+                    </div>
+                    <div class="col-8 col-md-10 col-lg-11">
+                        <div class="row">
+                            <div class="col-md-3 mb-1 mb-sm-3 col-sm-6">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Адрес:</p>
+                                <p class="f-13 fw-7">Фирменный салон ITALON</p>
+                                <p class="f-13">Брянск, ул. Дуки, д. 73</p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 mb-sm-3 col-sm-6 d-none d-sm-block">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Телефон:</p>
+                                <a href="tel:89100343117" class="f-13 hover-scale d-block fw-6">8 (910) 034-31-17</a>
+                            </div>
+                            <div class="col-md-3 mb-1 col-lg-2 mb-sm-3 col-sm-6">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Режим работы:</p>
+                                <p class="f-13">
+                                    Пн-Сб: 10:00-19:00 <br>
+                                    Вс: 10:00-17:00
+                                </p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 mb-sm-3 col-sm-6 d-none d-sm-block">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Способы оплаты:</p>
+                                <p class="f-13">
+                                    Наличными <br>
+                                    Банковской картой <br>
+                                    Оплата по счёту
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-sm-none mt-2">
+                        <a href="tel:89100343117" class="btn btn-black ttn f-13">Позвонить!</a>
+                    </div>
+                </div>
+                <div class="row py-3 border-bottom mb-3 mb-sm-0">
+                    <div class="col-4 col-md-2 col-lg-1 pr-0 p-sm-0 mb-3 mb-sm-0">
+                        <a href="img/location.png" target="_blank" class="hover-scale d-block"><img src="img/location.png" alt=""></a>
+                    </div>
+                    <div class="col-8 col-md-10 col-lg-11">
+                        <div class="row">
+                            <div class="col-md-3 mb-1 mb-sm-3 col-sm-6">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Адрес:</p>
+                                <p class="f-13 fw-7">Фирменный салон ITALON</p>
+                                <p class="f-13">Брянск, ул. Дуки, д. 73</p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 mb-sm-3 col-sm-6 d-none d-sm-block">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Телефон:</p>
+                                <a href="tel:89100343117" class="f-13 hover-scale d-block fw-6">8 (910) 034-31-17</a>
+                            </div>
+                            <div class="col-md-3 mb-1 col-lg-2 mb-sm-3 col-sm-6">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Режим работы:</p>
+                                <p class="f-13">
+                                    Пн-Сб: 10:00-19:00 <br>
+                                    Вс: 10:00-17:00
+                                </p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 mb-sm-3 col-sm-6 d-none d-sm-block">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Способы оплаты:</p>
+                                <p class="f-13">
+                                    Наличными <br>
+                                    Банковской картой <br>
+                                    Оплата по счёту
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-sm-none mt-2">
+                        <a href="tel:89100343117" class="btn btn-black ttn f-13">Позвонить!</a>
+                    </div>
+                </div>
+                <div class="row py-3 border-bottom mb-3 mb-sm-0">
+                    <div class="col-4 col-md-2 col-lg-1 pr-0 p-sm-0 mb-3 mb-sm-0">
+                        <a href="img/location.png" target="_blank" class="hover-scale d-block"><img src="img/location.png" alt=""></a>
+                    </div>
+                    <div class="col-8 col-md-10 col-lg-11">
+                        <div class="row">
+                            <div class="col-md-3 mb-1 mb-sm-3 col-sm-6">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Адрес:</p>
+                                <p class="f-13 fw-7">Фирменный салон ITALON</p>
+                                <p class="f-13">Брянск, ул. Дуки, д. 73</p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 mb-sm-3 col-sm-6 d-none d-sm-block">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Телефон:</p>
+                                <a href="tel:89100343117" class="f-13 hover-scale d-block fw-6">8 (910) 034-31-17</a>
+                            </div>
+                            <div class="col-md-3 mb-1 col-lg-2 mb-sm-3 col-sm-6">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Режим работы:</p>
+                                <p class="f-13">
+                                    Пн-Сб: 10:00-19:00 <br>
+                                    Вс: 10:00-17:00
+                                </p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 mb-sm-3 col-sm-6 d-none d-sm-block">
+                                <p class="d-lg-none d-sm-block d-none f-13 fw-7">Способы оплаты:</p>
+                                <p class="f-13">
+                                    Наличными <br>
+                                    Банковской картой <br>
+                                    Оплата по счёту
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-sm-none mt-2">
+                        <a href="tel:89100343117" class="btn btn-black ttn f-13">Позвонить!</a>
+                    </div>
                 </div>
             </div>
         </section>
