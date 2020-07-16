@@ -901,7 +901,7 @@ input[type=checkbox] + label:before {
     color: transparent;
     display: inline-block;
     border: 1px solid #ccc;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 12px;
     margin: -2px 6px 0 0;
     height: 14px;
