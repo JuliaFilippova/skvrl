@@ -9,7 +9,15 @@ body {
     overflow-x: hidden;
     font-size: 16px;
     min-width: 320px;
-	min-height: 100vh;
+	
+}
+header {
+	flex-grow: 1;
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    min-height: 100vh;
 	max-width: 100%;
 	flex-direction: column;
 	display: flex;
@@ -53,10 +61,6 @@ p {
 body.lock {
 	overflow: hidden;
 }
-.wrapper {
-    overflow: hidden;
-    min-height: 100%;
-}
 .h1,
 .h2,
 .h3,
@@ -71,34 +75,32 @@ h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
 }
 .h1,
 h1 {
 	font-size: 23px;
-	text-transform: uppercase;
 }
 .h2,
 h2 {
 	font-size: 20px;
-	text-transform: uppercase;
 }
 .h3,
 h3 {
 	font-size: 18px;
-	text-transform: uppercase;
 }
-/*.h4,
+.h4,
 h4 {
-	font-size: px;
+	font-size: 17px;
 }
 .h5,
 h5 {
-	font-size: px;
+	font-size: 16px;
 }
 .h6,
 h6 {
-	font-size: px;
-}*/
+	font-size: 15px;
+}
 .fw-4 {
 	font-weight: 400;
 }
@@ -886,6 +888,9 @@ input[type='radio']:checked::after {
 	margin-left: 10px;
 	margin-top: 2px;
 }
+.dropdown-toggle::after {
+    display: none;
+}
 /*checkbox*/
 input[type=checkbox] {
 	display: none;
@@ -912,7 +917,8 @@ input[type=checkbox]:checked + label:before {
 }
 /*checkbox*/
 
-/*tool tip*/
+
+/*поинты tool tip*/
 .tool-tip {
 	position: absolute;
 	width: 100%;
@@ -922,14 +928,18 @@ input[type=checkbox]:checked + label:before {
 	right: 0;
 	bottom: 0;
 }
-.tool-tip span {
+.tool-tip div {
 	width: 20px;
 	height: 20px;
 	display: block;
 	border-radius: 50px;
 	position: absolute;
 	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+	border: none;
 }
+/*.tool-tip button:focus {
+	outline: none;
+}*/
 .tool-tip .tool-tip_tl {
 	top: 5rem;
 	left: 5rem;
@@ -951,6 +961,7 @@ input[type=checkbox]:checked + label:before {
 	right: 6rem;
 }
 /*tool tip*/
+
 
 /*popup*/
 .popup {
@@ -974,13 +985,6 @@ input[type=checkbox]:checked + label:before {
 	transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
 	opacity: 1;
 }
-/*.popup__area {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-}*/
 .popup__body {
 	min-height: 100%;
 	display: flex;
@@ -1209,6 +1213,12 @@ input[type=checkbox]:checked + label:before {
 	}
 	.logo-brand img {
 	    width: 165px;
+	}
+
+	/*поинты*/
+	.tool-tip div {
+	    width: 13px;
+	    height: 13px;
 	}
 }
 @media (max-width: 480px) {
